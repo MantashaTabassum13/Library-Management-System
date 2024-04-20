@@ -64,7 +64,7 @@ while(True):
                     book_id=input("Please enter a valid book ID for borrowing by member ", member_id)
                     while(True):
                         if book_id in books:
-                            print("Book does not exist")
+                            print("Nothing")
                 else:
                     print("Member does not exist.")
 
